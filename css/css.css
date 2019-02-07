@@ -40,11 +40,13 @@ html, body{
 .carousel-caption > h2{
     font-size: 45px;
     text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .carousel-caption p{
     font-size: 20px;
     line-height: 35px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .carousel-caption.left{
