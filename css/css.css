@@ -1,0 +1,203 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background-color: transparent;
+    color: #fff;
+    outline: medium none;
+}
+
+.item > img{
+    width:100%;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.bg-dark{
+    transition: 500ms ease;
+    background: transparent !important;
+}
+.bg-dark.scrolled{
+    background: #000 !important;
+}
+
+.carousel-caption{
+    bottom: 34%;
+}
+
+.carousel-inner .item{
+    height: 100vh;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background-image:none;
+}
+
+.carousel-caption > h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.carousel-caption.left{
+    background-image: none;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    font-weight: bold;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+/*.affix.navbar-default .navbar-nav > li > a{
+    color: #fff;
+}*/
+
+.single-portfolio > img{
+    max-width: 100%;
+}
+
+.single-portfolio > img:hover{
+    opacity: 0.5;
+    transition: all 0.7s ease 0s
+}
+
+.portfolio-area, .about-area, .services-area, .contact-area{
+    padding: 50px 0;
+}
+
+.portfolio-area{
+    background: #ddd;
+}
+
+.section-header > h2{
+    margin-top: 8px;
+}
+.section-header > p{
+    font-size: 20px;
+    padding: 15px 0 35px;
+}
+
+.about-left > h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.about-left > p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.about-right > img{
+    margin-top: 96px;
+}
+
+.single-services > div{
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 60px;
+}
+
+.contact-area{
+    background-image: url(../img/slider03.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.contact-area .section-header{
+    color: #fff;
+}
+
+.contact-area form label{
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+/* Media Queries */
+/* Medium Layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+} 
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 15%;
+    }
+    .carousel-inner .item{
+        height: 40vh;
+    }
+    .carousel-caption h2{
+        font-size: 30px;
+    }
+    .about-right > img {
+        margin-top: 95px;
+        max-width: 100%;
+    }
+    .single-services > p{
+        text-align: justify;
+    }
+}
+
+/* Mobile Layout-vertical: 320px */
+@media only screen and (max-width: 767px){
+    nav{
+        background: #000 !important;
+    }
+    .slider-area{
+        margin-top: 58px;
+    }
+    .carousel-inner .item{
+        height: 40vh;
+    }
+    .carousel-caption > h2{
+        margin-top:150px;
+    }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+        background-color: #ddd;
+        color: #000;
+    }
+    .section-header h2{
+        font-size: 20px;
+    }
+    .section-header > p{
+        font-size: 15px;
+        padding: 5px 0;
+    }
+    .about-left > h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Mobile Layout-wide: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+        background-color: #ddd;
+        color: #000;
+    }
+}

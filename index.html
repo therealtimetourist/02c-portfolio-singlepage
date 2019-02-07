@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-        <link rel="stylesheet" href="css/css.css">
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/responsive/1.0.5/responsive.min.js">
+        <link rel="stylesheet" href="css/css.css">
         <!-- /CSS -->
         <!-- HTML shim -->
         <!-- if lt IE 9 >
@@ -23,9 +24,9 @@
     </head>
     <body>
         <header id="home">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" data-spy="affix" data-offset-top="50">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" style="width: 30px;"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -41,6 +42,9 @@
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
@@ -55,15 +59,27 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                        <img src="https://via.placeholder.com/800x400?text=Slide+001" class="d-block w-100" alt="001">
+                        <img src="img/slider01.png" class="d-block w-100" alt="001">
+                        <div class="carousel-caption hidden-xs">
+                            <h2 class="fadeInLeft animated" style="animation-delay: 500ms;">This is my Caption</h2>
+                            <p class="fadeInRight animated" style="animation-delay: 750ms;"> jafoih efoe josjh ofd jvsod jvsdpofivj sodiv josidv </p>
+                        </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400?text=Slide+002" class="d-block w-100" alt="002">
+                            <img src="img/slider02.jpg" class="d-block w-100" alt="002">
+                            <div class="carousel-caption hidden-xs">
+                                    <h2 class="fadeInLeft animated" style="animation-delay: 500ms;">Portfolio</h2>
+                                <p class="fadeInRight animated" style="animation-delay: 750ms;"> jafoih efoe josjh ofd jvsod jvsdpofivj sodiv josidv </p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400?text=Slide+003" class="d-block w-100" alt="003">
+                            <img src="img/slider03.jpg" class="d-block w-100" alt="003">
+                            <div class="carousel-caption hidden-xs">
+                                    <h2 class="fadeInLeft animated" style="animation-delay: 500ms;">Development</h2>
+                                <p class="fadeInRight animated" style="animation-delay: 750ms;"> jafoih efoe josjh ofd jvsod jvsdpofivj sodiv josidv </p>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -77,12 +93,193 @@
                 </div>
             </div>
         </header>
+        <section id="about" class="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-mid-12">
+                        <div class="section-header text-center">
+                            <h2 class="wow fadeInLeft animate" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>About Me</h2>
+                            <p class="wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et purus at ligula condimentum molestie at ac felis. Suspendisse a tortor non justo suscipit. Duis accumsan augue ut mauris iaculis aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="about-left">
+                            <h2 class="wow fadeInRight" data-wow-offset='50' data-wow-duration='1.5s' data-wow-delay='0.15s'>Don Bedwell</h2>
+                            <p class="wow fadeInLeft" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste modi minima in, incidunt iusto quam dolorem ipsum, nihil dolore temporibus non consequuntur reprehenderit laboriosam deleniti. Quos, provident. Ducimus magnam cumque voluptates sapiente molestiae quibusdam quisquam ipsum et odit sequi, magni nemo optio inventore mollitia facilis nam corrupti laborum temporibus laudantium sit numquam! Molestias culpa possimus commodi delectus ex hic ut obcaecati libero eos velit eveniet pariatur, dolorem nulla sapiente itaque necessitatibus magnam quia minima veniam illo voluptatibus, ipsam accusamus quaerat! Ab, veniam atque quidem dolore repellat accusamus reprehenderit sint, soluta dignissimos laborum fugiat iure saepe accusantium nesciunt quibusdam labore? Veritatis aspernatur blanditiis ab ad, aliquam voluptatibus unde. Ullam, consequuntur nulla. Alias suscipit amet ad sit, consequatur quibusdam eos, expedita illo quis dolorum, labore harum quisquam. Pariatur deleniti, ut enim provident iusto consequuntur voluptatem a, distinctio quos facilis minus hic quidem doloremque fugiat maxime iste architecto quod optio corporis laborum non laboriosam. Commodi dolorem adipisci dicta deserunt impedit, quo itaque, eveniet cum minus veniam quis voluptatibus? Ipsum, eaque animi! Deserunt temporibus nemo dignissimos, recusandae consectetur architecto obcaecati earum maiores quis magni labore, odit enim beatae! Repudiandae, quibusdam iste ipsum molestias illum similique, corporis minima dignissimos consequuntur quam cum alias iusto. Consequuntur odio culpa ea eos molestiae earum, recusandae magni. Laudantium doloribus magnam nostrum deserunt qui mollitia asperiores deleniti, voluptate molestiae tempora reprehenderit animi architecto veniam aperiam odio. Aut, reiciendis? Itaque harum qui illo dicta magnam nihil beatae a dolorum voluptates aliquid, rem blanditiis iusto corporis asperiores nulla placeat laborum minus excepturi atque laudantium! Fuga consectetur fugiat distinctio temporibus delectus. At tenetur, alias voluptatibus necessitatibus voluptatum quasi voluptates id exercitationem, minus ex officia libero perferendis dolorem maiores ad ab voluptatem harum sapiente repellendus eligendi ullam iure totam, architecto quidem! Earum, provident laboriosam sint molestias praesentium officia error dolore unde aspernatur sunt, expedita voluptates dignissimos! Dignissimos vitae iusto adipisci, quasi, ipsum, sapiente et veniam nam culpa ea temporibus ullam aut? Veniam suscipit cum, cupiditate ab id adipisci rerum? Autem debitis sequi doloribus dolorum blanditiis quibusdam, qui, deleniti perferendis tempora quia ullam vero saepe? Expedita, ducimus beatae architecto totam recusandae nobis iure consequatur deleniti libero atque numquam repudiandae distinctio, ab laboriosam sequi modi exercitationem. Quos deserunt harum, delectus explicabo reprehenderit cum quod nisi provident sunt consequuntur. Consectetur quis nemo repellendus obcaecati inventore doloremque excepturi similique, alias maiores sapiente corporis recusandae nobis repudiandae dolor iusto expedita debitis temporibus veniam earum. Quo nam beatae saepe animi eligendi deleniti atque consequuntur doloremque ipsam cumque voluptate delectus nihil eveniet quasi praesentium in, error aliquid adipisci reiciendis autem voluptates. Quibusdam ducimus perferendis reprehenderit, facere nemo porro sint beatae amet mollitia soluta. Placeat saepe nihil illo vitae facere, dolores exercitationem sequi cumque aperiam dicta! Et molestiae pariatur fugit dignissimos debitis nemo dolorum doloremque? Doloremque eligendi veritatis minus voluptas incidunt illum quaerat, vitae in veniam voluptates aliquam, ullam nobis, maiores doloribus. Quod, enim provident. Eius aut omnis perspiciatis pariatur consectetur quis dolorem laboriosam, similique provident dignissimos, repudiandae, quas voluptas facilis autem aliquid voluptates? Recusandae consequuntur quae, eveniet officiis officia ex odio?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="about-right text-center">
+                            <img src="img/donb_pro.png" alt="Meet Don">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam numquam deserunt quae, molestiae nemo, laudantium impedit perferendis vel cumque minus sint natus sequi dolorem tempora officia cum neque porro, nam quod. Amet delectus dolore laborum fuga natus error deserunt aliquam. Eum laudantium minus, inventore harum maxime nesciunt! Culpa odit in officia quisquam cum, vero, sint dignissimos magni eligendi, ipsum voluptatum voluptatem molestiae quidem soluta nam dolore esse adipisci a ratione vel cumque ad reiciendis. Aliquid doloremque dicta minus corporis ullam maxime molestiae sed nostrum quas iste excepturi obcaecati, blanditiis ex illo consectetur temporibus quis quam voluptatum! Incidunt hic rerum dolorum ipsa, debitis distinctio ea quaerat praesentium suscipit quam expedita nostrum repudiandae ullam animi officia voluptatem aperiam excepturi corporis, vel deleniti sequi? Cum, veritatis, velit in harum id voluptates repudiandae nulla iure, quisquam ad earum. Quos repellendus reiciendis, culpa saepe sequi modi deserunt. Repudiandae adipisci tempora, in itaque consectetur, illo neque quidem pariatur aspernatur officiis iste ex alias sequi. Doloribus eveniet porro corporis deserunt aliquam reiciendis ratione molestiae! Nobis maiores, autem eligendi fugiat omnis quod debitis repudiandae ipsa perferendis minima eos officia voluptatibus, nulla excepturi neque odit beatae? Atque nobis sunt quas itaque laboriosam ut tenetur dignissimos esse reiciendis repellendus?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-mid-12">
+                        <div class="section-header text-center">
+                            <h2 class="wow fadeInLeft" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>Portfolio</h2>
+                            <p class="wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et purus at ligula condimentum molestie at ac felis. Suspendisse a tortor non justo suscipit. Duis accumsan augue ut mauris iaculis aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio One</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Two</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Three</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Four</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Five</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Six</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Seven</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="single-portfolio">
+                            <img src="img/works01.jpg" alt="works01">
+                            <h4>Portfolio Eight</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt, voluptatem ad commodi esse deserunt doloremque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-mid-12">
+                        <div class="section-header text-center">
+                                <h2 class="wow fadeInLeft" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>Services</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et purus at ligula condimentum molestie at ac felis. Suspendisse a tortor non justo suscipit. Duis accumsan augue ut mauris iaculis aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-3 col-sm-6 wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>
+                        <div class="single-services text-center">
+                            <div><i class="fa fa-cog"></i></div>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aliquam consequuntur ipsa vero temporibus illum veritatis eum id. Quis, aliquam eaque saepe nobis dolorum nesciunt explicabo.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.30s'>
+                        <div class="single-services text-center">
+                            <div><i class="fa fa-comment-o"></i></div>
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aliquam consequuntur ipsa vero temporibus illum veritatis eum id. Quis, aliquam eaque saepe nobis dolorum nesciunt explicabo.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.45s'>
+                        <div class="single-services text-center">
+                            <div><i class="fa fa-bar-chart"></i></div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aliquam consequuntur ipsa vero temporibus illum veritatis eum id. Quis, aliquam eaque saepe nobis dolorum nesciunt explicabo.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.60s'>
+                        <div class="single-services text-center">
+                            <div><i class="fa fa-download"></i></div>
+                            <h3>GitHub</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aliquam consequuntur ipsa vero temporibus illum veritatis eum id. Quis, aliquam eaque saepe nobis dolorum nesciunt explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center">
+                                <h2 class="wow fadeInLeft" data-wow-offset='30' data-wow-duration='1.5s' data-wow-delay='0.15s'>Contact</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et purus at ligula condimentum molestie at ac felis. Suspendisse a tortor non justo suscipit. Duis accumsan augue ut mauris iaculis aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-4">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-text text-center">
+                            <p>&copy; 2019 BEDWELL3 Creations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         
         <!-- JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
         <script src="js/main.js"></script>
         <!-- /JS -->
     </body>
