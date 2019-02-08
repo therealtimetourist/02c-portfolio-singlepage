@@ -1,5 +1,6 @@
 html, body{
     overflow-x: hidden;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
@@ -60,9 +61,9 @@ html, body{
     text-transform: uppercase;
 }
 
-/*.affix.navbar-default .navbar-nav > li > a{
-    color: #fff;
-}*/
+.single-portfolio{
+    text-align: center;
+}
 
 .single-portfolio > img{
     max-width: 100%;
