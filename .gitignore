@@ -62,3 +62,6 @@ typings/
 
 # Mac hidden files
 .DS_Store
+
+# workbench folder
+workbench/
