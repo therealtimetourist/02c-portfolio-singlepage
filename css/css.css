@@ -61,6 +61,10 @@ html, body{
     text-transform: uppercase;
 }
 
+.donpic{
+    border-radius: 50%;
+}
+
 .single-portfolio{
     text-align: center;
 }
