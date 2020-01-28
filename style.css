@@ -16,12 +16,16 @@ html{
 	font-family: 'Poppins', sans-serif;
 }
 
+.fixed-top {
+    background: #000;
+}
+
 a:link{
 	text-decoration: none;
 }
 
-a:hover,
-.nav-item a:hover{
+a:hover, a:focus,
+.nav-item a:hover, .nav-item a:focus{
 	text-decoration: underline;
 }
 
@@ -78,7 +82,7 @@ i{
 }
 
 .nav-item a{
-	color: #fff;
+	color: #fff!important;
 	font-weight: bold;
 }
 
@@ -191,10 +195,31 @@ i{
 	margin: 100px 0;
 }
 
-.project-work h1{
+/*.project-work h1{
 	font-size: 2rem;
 	text-align: center;
+}*/
+
+.project-work h3{
+	font-size: 1.6em;
 }
+
+/*.project-work h3:after{
+	content: "";
+	padding-left: 25%;
+}*/
+
+.project-work h4 {
+  font-size: 1.2em;
+}
+
+.project-work h3, .project-work h4 {
+  /*width: 50%;*/
+  line-height: 2em;
+  margin: 0;
+  padding: 0;
+  /*display: inline;*/
+}​
 
 .pricing{
 	width: 100%;
@@ -375,12 +400,11 @@ i{
 }
 
 .form-button button{
-	border: 1px solid #f1f4f4;
 	border-radius: 100px;
 	margin: 5px 0;
 	padding: 12px 35px;
 	outline: none;
-	color: #f1f4f4;
+	color: #007bff;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5em;
@@ -402,7 +426,7 @@ form:hover .form-button button{
 	font-size: 0.85em;
 }
 
-.newsletter{
+/*.newsletter{
 	width: 100%;
 	height: auto;
 	margin: 80px auto;
@@ -412,7 +436,7 @@ form:hover .form-button button{
 	border-radius: 100px 0px 0px 100px;
 	min-width: 150px;
 	min-height: 45px;
-}
+}*/
 
 .input-group-text{
 	color: #fff;
@@ -473,12 +497,14 @@ form:hover .form-button button{
 @media(max-width: 768px){
 	.nav-item{
 		text-align: center;
+		line-height: 2em;
+		font-size: 1.5em;
 	}
 	
 	.pricing, .happy-clients, .contact-us{
 		height: auto;
 		margin-top: 50px;
-	}
+	}​
 	
 	.card-second{
 		transform: translateY(0);
