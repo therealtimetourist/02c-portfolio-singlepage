@@ -522,4 +522,8 @@ form:hover .form-button button{
 	.footer-div{
 		margin: 30px 0;
 	}
+	
+	.project-work h4 {
+		float: left!important;
+	}
 }
